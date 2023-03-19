@@ -1,0 +1,49 @@
+.card{
+    display: flex;
+    font-family: 'Roboto';
+    margin: 15px 0;
+    font-size: 1rem;
+    box-shadow: 1px 5px 14px 0px rgba(0,0,0,0.64);
+	-webkit-box-shadow: 1px 5px 14px 0px rgba(0,0,0,0.64);
+	-moz-box-shadow: 1px 5px 14px 0px rgba(0,0,0,0.64);
+    padding: 20px;
+    border-radius: 5px;
+    }
+/*#349CE1*/
+.logo_container{
+    margin-right: 20px;
+}
+
+.logo{
+    max-width: 80px;
+}
+
+.job{
+    margin: 0 0 5px 0;
+    font-size: 1.1em;
+}
+
+.company{
+    display: block;
+}
+
+.date{
+    color: #888;
+    font-size: 0.9em;
+    
+}
+
+.description{
+    margin-bottom: 0;
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 1040px) {
+    
+}
+
+@media screen and (max-width: 576px){
+    .logo{
+        max-width: 60px;
+    }
+}
