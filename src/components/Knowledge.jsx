@@ -12,7 +12,7 @@ const Knowledge = () => {
 			<div className="container fadeIn">
 				<div className="servicios-section">
 				{skills.map( (skill, idx) => 
-					<CardSkill name={skill.name} logo={skill.logo} key={idx}/>
+					<CardSkill name={skill.name} logo={skill.logo} img={skill.img} key={idx}/>
 				)}
 
 				</div>

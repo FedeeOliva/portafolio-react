@@ -19,13 +19,16 @@ const CardProject = ({project}) => {
           >
             Demo
           </a>
-          <a
+          {urlGithub &&
+            <a
             href={urlGithub}
             target="_blank"
             rel="noopener noreferrer"
           >
             Código
           </a>
+          }
+          
         </div>
       </div>
     </article>

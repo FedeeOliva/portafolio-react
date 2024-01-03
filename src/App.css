@@ -256,6 +256,12 @@ a{
 	color: var(--black-primary);
 }
 
+.card-service img{
+	/* width: 50px; */
+	height: 60px;
+	opacity: 0.9;
+}
+
 .title-service{
 	color: var(--black-primary);
 	margin-bottom: 1rem;
@@ -270,8 +276,9 @@ a{
 	width: 100%;
 }
 .proyectos > .container{
-	display: flex;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
 	position: relative; /*momentanea*/
 	gap: 30px;
 }
@@ -613,6 +620,10 @@ a{
 		justify-content: space-around;
 	}
 
+	.proyectos > .container{
+		grid-template-columns: 1fr 1fr;
+	}
+
 	/* proyectos*/
 	.card-proyecto , .card-proximamente{
 		width: 80%;
@@ -719,5 +730,8 @@ a{
 	.formulario{
 		font-size: 0.85rem;
 		width: 100%;
+	}
+	.proyectos > .container{
+		grid-template-columns: 1fr;
 	}
 }

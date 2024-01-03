@@ -4,7 +4,7 @@ import logoValholl from "../assets/logoValholl.png";
 
 export const experiences = [
   {
-    job: "QA Automatizador",
+    job: "QA Automatizador SSR",
     logo: logoTsoft,
     company: "TSoft",
     date: "Octubre 2021 - Actualidad",

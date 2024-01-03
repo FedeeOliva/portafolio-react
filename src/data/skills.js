@@ -4,4 +4,7 @@ export const skills = [{name: "Javascript", logo: "fab fa-js-square"},
 {name: "NodeJS - Express", logo: "fab fa-node"},
 {name: "ReactJS", logo: "fab fa-react"},
 {name: "MongoDB", logo: "fas fa-database"},
+{name: "Typescript", img: 'typescript.png'},
+{name: "NextJs", img: 'nextjs.png'},
+{name: "NestJs", img: 'nestjs.png'}
 ]

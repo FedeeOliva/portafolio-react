@@ -1,0 +1,4 @@
+export const resume = {
+    imgProfile: 'profile.jpeg',
+    data: 'Soy Técnico Universitario en Programación graduado de la UTN, soy un apasionado por la programación y la resolución de problemas lógicos. Me esfuerzo por mejorar constantemente, soy proactivo y autodidácta. Me destaco por mi capacidad de adaptación, rápido aprendizaje y habilidad para detectar errores. He tenido experiencia en desarrollo Fullstack MERN y en puestos de QA Automatizador, con un fuerte conocimiento en Javascript y experiencia en Java y VBS. Soy competente en tecnologías como React, NextJS, React Native, Node, Express, CSS, Postman, Jest, JUnit, Selenium, UFT, Appium y Firebase. También tengo experiencia en bases de datos tanto NoSQL (MongoDB) como SQL (MySQL, MariaDB, SQLite).'
+}
